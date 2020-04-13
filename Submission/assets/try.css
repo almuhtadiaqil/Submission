@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+h2{
+    color: black;
+}
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-image: url(amanah.jpg);
+    text-align: center;
+    color: white;
+}
+header {
+    display: inline;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav {
+    background-color: black;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    opacity: 0.8;
+}
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(IMG-20200406-WA0024.jpg);
+}
+main {
+    padding: 20px;
+    overflow: auto;
+    margin: 80px auto;
+    float: none;
+    width: 75%;
+    background-color: white;
+}
+* {
+    box-sizing: border-box;
+}
+.featured-image {
+    width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.profile img{
+    width: 200px;
+    object-position: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: auto;
+}
+#content {
+    float: left;
+    width: 75%;
+    overflow: auto;
+}
+aside {
+    overflow: auto;
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+aside article p {
+    float: none;
+}
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+}
